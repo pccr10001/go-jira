@@ -17,7 +17,7 @@ type UserService struct {
 // User represents a Jira user.
 type User struct {
 	Self            string     `json:"self,omitempty" structs:"self,omitempty"`
-	AccountID       string     `json:"accountId,omitempty" structs:"accountId,omitempty"`
+	AccountID       string     `json:"id,omitempty" structs:"accountId,omitempty"`
 	ID              string     `json:"id,omitempty" structs:"accountId,omitempty"`
 	AccountType     string     `json:"accountType,omitempty" structs:"accountType,omitempty"`
 	Name            string     `json:"name,omitempty" structs:"name,omitempty"`
